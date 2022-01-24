@@ -1,11 +1,13 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
+  $(".clickable-js").click(function() {
     $("#js-def-showing").toggle();
+    $("clickable").removeClass();
     $("#js-def-hidden").show();
   });
 
-  $(".clickable").click(function() {
+  $(".clickable-string").click(function() {
     $("#string-def-showing").toggle();
+    $("clickable").removeClass();
     $("#string-def-hidden").show();
   });
 });

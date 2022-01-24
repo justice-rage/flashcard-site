@@ -2,6 +2,10 @@
   display: none;
 }
 
+#string-def-showing {
+  display: none;
+}
+
 p {
   cursor: pointer;
   color: #0088cc;
